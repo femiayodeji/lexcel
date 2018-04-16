@@ -1,0 +1,56 @@
+page-consult {
+    
+    .form{
+        text-align: center;
+        background: #ccc url(../assets/res/paper.png) fixed no-repeat;
+        background-size: cover;
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: 0;
+        width: 100%;
+        height: 30%;
+    }
+    .overlay{
+        padding: 10px 20px;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5)
+    }
+    #letters{
+        box-shadow: 1px 1px 1px #000000;
+        font-weight: bold;
+        font-family: monospace;
+        background: #ffffff;
+        border-radius: 5px;
+        font-size: 15px;
+        text-align: center !important;
+        padding: 5px;
+        margin-top: 30px;
+    }
+    #letters:hover,#letters:focus,#letters:active{
+        box-shadow: 2px 2px 2px #000000;
+    }
+    h1{
+        color: #000000;        
+    }
+    .words{
+        position: absolute;
+        left: 0;
+        margin: 0;
+        margin-top: 55%; 
+        padding: 0;
+        text-align: justify;
+        z-index: -1000;
+    }
+    .words ul{
+        margin: 0;
+        padding: 10px;
+    }
+    #word{
+        display: inline-block !important;
+        padding: 5px;
+        transition:all 2s ease-in;
+    }
+}

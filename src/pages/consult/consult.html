@@ -1,0 +1,18 @@
+
+<ion-content padding>
+    <div class="form">
+      <div class="overlay">
+        <h1>Consult</h1>            
+        <ion-input type="text" placeholder=" enter your letters " [(ngModel)]="letters" (keyup.enter)="getWords()" id="letters"></ion-input>  
+      </div>
+
+        <!-- <button ion-button (click)="getWords()">Check</button>       -->
+        <!-- <button ion-button (click)="doClear()">Clear</button>       -->
+      </div>
+
+  <div class="words">
+    <ul>
+      <li id="word" *ngFor="let word of words">{{word}}</li> 
+    </ul>
+  </div>
+</ion-content>

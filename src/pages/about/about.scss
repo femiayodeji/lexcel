@@ -1,0 +1,33 @@
+page-about {
+    .container{
+        display: block;
+    }
+    .overlay{
+        padding: 10px;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5)
+    }
+
+    .information{
+        background: #ccc url(../assets/res/back.jpg) center no-repeat;
+        background-size: cover;
+        top: 0;
+        left: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        color: #ffffff;
+    }
+    .contact{
+        padding: 10px;        
+    }
+    h1{
+        color: #000000;   
+        text-align: center;     
+    }
+    a{
+        text-decoration: none !important;
+    }
+}
